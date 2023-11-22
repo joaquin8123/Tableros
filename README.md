@@ -26,4 +26,4 @@ Antes de comenzar, asegúrate de tener instalado en tu máquina:
 
 ![Home](./home.png)
 
-![Detail](./detail.png)
+![Detail](./detail.PNG)
