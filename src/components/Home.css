@@ -1,0 +1,86 @@
+/* App.css */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  height: 100vh;  
+}
+
+.sidebar {
+  width: 25%;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+.sidebar h2 {
+  margin-bottom: 10px;
+}
+
+
+.checkbox-container {
+  display: flex;
+  margin-bottom: 10px;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.checkbox-label {
+  margin: 0;
+  padding: 0;
+}
+
+.checkbox-label input {
+  margin-right: 8px; /* Espacio entre el checkbox y la etiqueta */
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+  height: 100%;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+thead {
+  background-color: #f0f0f0;
+}
+
+.logout-button {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff0000; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.logout-button:hover {
+  background-color: #cc0000; /* Cambia el color de fondo al pasar el ratón por encima */
+}
